@@ -79,6 +79,7 @@ var consent = {
 	functionality_storage: defaultConsent ? "granted" : 'denied',
 	personalization_storage: defaultConsent ? "granted" : 'denied',
 	unclassified_storage: defaultConsent ? "granted" : 'denied',
+	security_storage: "granted" 
 }
 
 var acceptConsent = {
@@ -89,6 +90,7 @@ var acceptConsent = {
 	functionality_storage: 'granted',
 	personalization_storage: 'granted',
 	unclassified_storage: 'granted',
+	security_storage: "granted" 
 }
 
 var declinedConsent = {
@@ -99,6 +101,7 @@ var declinedConsent = {
 	functionality_storage: 'denied',
 	personalization_storage: 'denied',
 	unclassified_storage: 'denied',
+	security_storage: "granted" 
 }
 
 gtag('consent', 'default', consent);
