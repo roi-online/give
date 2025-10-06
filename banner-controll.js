@@ -38,7 +38,7 @@ var websiteLogo = "https://givetojcenter.dk/img/my-store-logo-1510308957.jpg";
 
 var logoWidth = "150px";
 
-var darkModeEnable = true;
+var darkModeEnable = false;
 
 var darkModeDefault = localStorage.getItem("viewMode") ? localStorage.getItem("viewMode") : "light";
 
@@ -58,7 +58,7 @@ var secondBannerShowingTime = 10;
 
 var storeQuery = true;
 var addBackToUrl = true;
-var queryParamsToStore = ['gcild', 'utm_source', 'utm_medium'];
+var queryParamsToStore = ['gclid', 'utm_source', 'utm_medium'];
 
 const root = document.querySelector(':root');
 var rootStyle = getComputedStyle(root);
@@ -110,7 +110,7 @@ function pushDataLayer(consent, event) {
 	window.dataLayer.push({
 		event: event,
 		consent: consent,
-		setupBy: "https://www.fiverr.com/analyticsbyte"
+		setupBy: "ROI ONLINE ApS"
 	})
 }
 
