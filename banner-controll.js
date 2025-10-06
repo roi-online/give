@@ -36,7 +36,7 @@ var bannerShowingDelayed = 0;
 
 var websiteLogo = "https://givetojcenter.dk/img/my-store-logo-1510308957.jpg";
 
-var logoWidth = "50px";
+var logoWidth = "150px";
 
 var darkModeEnable = true;
 
